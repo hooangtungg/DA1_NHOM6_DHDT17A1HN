@@ -264,7 +264,7 @@ void setup() {
   // ================= TÍCH HỢP ĐA WIFI BACK-UP =================
   lcd.setCursor(0, 1); lcd.print("Ket noi WiFi... ");
   
-  // NẠP DANH SÁCH WIFI CỦA CẬU VÀO ĐÂY (Nhiều bao nhiêu tùy thích)
+  // NẠP DANH SÁCH WIFI
   wifiMulti.addAP("sv.uneti.edu.vn", NULL);
   wifiMulti.addAP("sv.uneti.edu.vn", "sv.uneti.edu.vn");
   wifiMulti.addAP("uneti.edu.vn", "uneti.edu.vn");
